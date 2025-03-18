@@ -1,0 +1,23 @@
+{
+    "experiences": [
+       
+        {
+            "title": "Fullstack Developer",
+            "subtitle": "COGNEX",
+            "workType": "Full Time",
+            "workDescription": [
+                "As a Full-Stack MERN Developer, I specialize in developing dynamic and responsive web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js). My expertise lies in both front-end and back-end development, creating seamless user experiences and robust server-side functionality. I design and build scalable web applications with React.js for the front-end, and utilize Node.js and Express.js for the back-end, ensuring high performance and smooth interaction between client and server.I also have experience working with MongoDB to design efficient and flexible databases. With a focus on clean, maintainable code and best practices, I’m able to bring both technical and creative solutions to complex challenges"
+            ],
+            "dateText": "07/2023 – Present"
+        },
+        {
+          "title": "Fullstack Developer",
+            "subtitle": "CROSS HURDLE",
+            "workType": "Full Time",
+            "workDescription": [
+                "I am a Full-Stack MERN Developer with expertise in building dynamic web applications using MongoDB, Express.js, React.js, and Node.js. I create responsive front-end interfaces with React.js and develop scalable back-end systems with Node.js and Express.js"
+            ],
+            "dateText": "12/2021 – 04/2023"
+        }
+    ]
+}

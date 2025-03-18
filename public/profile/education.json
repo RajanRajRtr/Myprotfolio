@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "Aug 2017 - June 2021",
+            "cardTitle": "BE",
+            "cardSubtitle":"Mailam Engineering College, Villupuram",
+            "cardDetailedText": "percentage - 81%",
+            "icon" : {
+                "src": ""
+            }
+        },
+        {
+            "title": "June 2015 - April 2017",
+            "cardTitle": "High School",
+            "cardSubtitle":"St Joesph H.S.S, Cuddalore",
+            "cardDetailedText": "Marks - 75%"
+        }
+    ]
+}
