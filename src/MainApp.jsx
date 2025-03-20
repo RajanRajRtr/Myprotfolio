@@ -4,6 +4,7 @@ import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
 import endpoints from './constants/endpoints';
+import WhatsAppChatButton from './components/WhatsAppChatButton';
 
 function MainApp() {
   const [data, setData] = useState(null);
@@ -20,13 +21,16 @@ function MainApp() {
   return (
     <div className="MainApp">
       <NavBarWithRouter />
+      <WhatsAppChatButton />
       <main className="main">
         <Switch>
           <Suspense fallback={<FallbackSpinner />}>
             <Route exact path="/" component={Home} />
-            {data
-              && data.sections.map((route) => {
-                const SectionComponent = React.lazy(() => import('./components/' + route.component));
+            {data &&
+              data.sections.map((route) => {
+                const SectionComponent = React.lazy(() =>
+                  import('./components/' + route.component)
+                );
                 return (
                   <Route
                     key={route.headerTitle}

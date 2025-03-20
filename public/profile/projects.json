@@ -91,6 +91,26 @@
                 "whatsApp"
             ]
         },
+        {   "image" : "images/projects/stockzone.png",
+            "title": "Stock Zone",
+            "bodyText": " An Ecommerce web Application users can be buy **Stock** broker,\n - Newly Implemnted to **Buy & Sell*  of Stocks .\n - user can be email notificaton **Mange Admin all Datas** ",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://stockzone-nsnt.onrender.com/"
+                }
+            ],
+            "tags" : [
+                "Freelancer",
+                "React",
+                "Node",
+                "MongoDB",
+                "onRender",
+                "whatsApp",
+                "Nodemailer"
+            ]
+        }
+        ,
         {
             "title": "Medall ReportViwer",
             "bodyText": "- Medall dioganotics **LAB & RAD** to the patient report viewer.\n - Uses the **MVC** architecture.\n - Uses **lOGIN** Only based on center view authendication ",

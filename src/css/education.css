@@ -1,19 +1,41 @@
 .vertical {
-    justify-content: center;
+  justify-content: center;
 }
 
 .vertical_alternating {
-    justify-content: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 578px) {
-    div.vertical-item-row > div:nth-child(1) {
-        width: 20% !important;
-    }
-    div.vertical-item-row > div:nth-child(2) {
-        width: 65% !important;
-    }
-    div.vertical-item-row > div:nth-child(3) {
-        width: 15% !important;
-    }
+  div.vertical-item-row > div:nth-child(1) {
+    width: 20% !important;
+  }
+  div.vertical-item-row > div:nth-child(2) {
+    width: 65% !important;
+  }
+  div.vertical-item-row > div:nth-child(3) {
+    width: 15% !important;
+  }
+}
+
+.whatsapp-chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  /* background-color: #66ec54; */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(223, 8, 8, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  animation: blink 1s infinite;
+}
+
+.whatsapp-chat-button img {
+  width: 55px;
+  height: 56px;
 }
