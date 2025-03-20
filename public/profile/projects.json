@@ -1,17 +1,14 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/myprotfolio.png",
+            "title": "My Portfolio",
+            "bodyText": "- My Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
+                
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": ""
                 }
             ],
             "tags" : [
@@ -21,130 +18,96 @@
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/cinkarft.png",
+            "title": "CINECRAFT",
+            "bodyText": "- A movie booking and cinema updated web app made using **React** and **Node**. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **JWT Token**.\n - Deployed on **AWS** server.",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
+               
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://cinekraft.co.in/"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "React",
+                "Node",
+                "JavaScript",
+                "Antd",
+                "SQL"
+                
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/restopedic.png",
+            "title": "Restopedic",
+            "bodyText": "- An Web App this is one of ecommerce website user can be buy **matters**,\n - Newly Implemnted to **360* object view** of products .\n - user can be attractive **Augmented reality (AR)** ",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "text": "Live",
+                    "href": "http://restopedic.in/"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "React",
+                "Node",
+                "augmented reality (AR) ",
+                "MongoDB",
+                "Antd"
+
+            ]
+        },
+        {"image" : "images/projects/change.png",
+            "title": "ChangeArtWork",
+            "bodyText": "- Office mangament Web App to 5 types of portal its here.\n - **End to End encryption **all data client deatils fully encrption for security purpose.\n - addtionally added to Employees maintian daily reports and worklogs .\n - Secured with **MAC nd IP address rescrition** lock.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://changeartwork.com/"
+                }
+            ],
+            "tags" : [
+                "Freelancer",
+                "React",
+                "Node",
+                "MongoDB",
+                "MUI"
+            ]
+        },
+        {"image" : "images/projects/wifeofshiva.jpeg",
+            "title": "WifeofShiva",
+            "bodyText": "- Ecommerce Web Application to sell **natural Wait loss product**.\n - Offline support using **whatsapp**  and **call futhers**.\n - Ours **Youtube infulencer**",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://wifeofshiva.com/"
+                }
+            ],
+            "tags" : [
+                "Freelancer",
+                "WordPress",
+                "SQL",
+                "CRM",
+                "Hostinger",
+                "whatsApp"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "Medall ReportViwer",
+            "bodyText": "- Medall dioganotics **LAB & RAD** to the patient report viewer.\n - Uses the **MVC** architecture.\n - Uses **lOGIN** Only based on center view authendication ",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "text": "Live",
+                    "href": ""
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Freelancer",
+                "c#",
+                ".Net",
+                "WebServices",
+                "Webform"
             ]
         }
+       
     ]
 }
